@@ -1,0 +1,12 @@
+{
+	"name": "PESU Attendance Calculator",
+
+	"content_scripts": [{
+		"matches": ["https://www.pesuacademy.com/*"],
+		"js": ["boilerplate.js"]
+	}],
+
+	"manifest_version": 3,
+
+	"version": "0.1"
+}
